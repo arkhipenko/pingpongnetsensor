@@ -1,3 +1,18 @@
+/* -------------------------------------
+  Faulty Ping Pong Serve detection 
+  Based on ATTiny85 
+   Code Version 1.0.1
+
+  Change Log:
+  2017-08-20
+    v1.0.0 - initial release
+
+  2017-08-30
+    v1.0.1 - support for TM1650 based finetuning using Arduino Uno and 7 segment display
+    
+ ----------------------------------------*/
+
+      
 #include <AvgFilter.h>
 
 // #define _TASK_TIMECRITICAL      // Enable monitoring scheduling overruns
